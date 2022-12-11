@@ -74,3 +74,73 @@
 .nav-bar ul li:hover::after {
     width: 100%;
 }
+
+
+/* headings and button */
+
+
+.maintext {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.maintext h1 {
+    text-transform: uppercase;
+    margin-top: 400px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 70px;
+}
+
+
+.maintext p {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    letter-spacing: 3px;
+    margin-top: 60px;
+}
+
+
+button {
+    width: 180px;
+    padding: 20px 0;
+    margin: 100px 0px;
+    text-align: center;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border: 3px solid #4682B4;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 3px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+span {
+    background: #4682B4;
+    height: 100%;
+    width: 0;
+    border-radius: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.7s;
+}
+
+
+button:hover span {
+    width: 100%;
+}
+
+
+button:hover {
+    border: none;
+}
