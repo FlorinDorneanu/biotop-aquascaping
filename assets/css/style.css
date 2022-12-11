@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Source+Sans+Pro&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* banner-image */
+
+.banner-image {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.70)), url(../images/aquascaping-photo.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* logo and navigation bar */
+
+
+.nav-bar {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo {
+    width: 500px;
+    cursor: pointer;
+    padding: 40px;
+}
+
+
+.nav-bar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+    position: relative;
+}
+
+
+.nav-bar img {
+    padding-left: 0px;
+}
+
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.nav-bar ul li::after {
+    content: '';
+    height: 5px;
+    width: 0;
+    background: #4682B4;
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    transition: 0.7s;
+}
+
+
+.nav-bar ul li:hover::after {
+    width: 100%;
+}
