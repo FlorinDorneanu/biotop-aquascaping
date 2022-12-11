@@ -144,3 +144,31 @@ button:hover span {
 button:hover {
     border: none;
 }
+
+
+/* footer */
+
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+
+.social-links {
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.social-links > li {
+    display: inline;
+}
+
+footer i {
+    font-size: 130%;
+    margin: 1%;
+    padding: 5%;
+    color: #4682B4;
+}
