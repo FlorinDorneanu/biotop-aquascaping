@@ -22,8 +22,8 @@
 
 
 .nav-bar {
-    width: 85%;
-    margin: auto;
+    max-width: 85%;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -82,7 +82,7 @@
 .maintext {
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 60%;
     transform: translateY(-50%);
     text-align: center;
     color: #fff;
@@ -90,16 +90,16 @@
 
 .maintext h1 {
     text-transform: uppercase;
-    margin-top: 400px;
+    margin-top: 80px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 70px;
 }
 
 
 .maintext p {
-    font-size: 20px;
+    font-size: 20px auto;
     font-family: 'Poppins', sans-serif;
-    line-height: 30px;
+    line-height: 25px;
     letter-spacing: 3px;
     margin-top: 60px;
 }
@@ -107,13 +107,13 @@
 
 button {
     width: 180px;
-    padding: 20px 0;
-    margin: 100px 0px;
+    padding: 15px 0;
+    margin: 30px 10px;
     text-align: center;
     border-radius: 30px;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    border: 3px solid #4682B4;
+    border: 2px solid #4682B4;
     background: transparent;
     color: #fff;
     cursor: pointer;
@@ -157,6 +157,65 @@ footer {
 }
 
 
+.footercontainer {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+
+.footerlines {
+    width: 100%;
+    height: 55px;
+    position: relative;
+}
+
+
+.footerlines::after, .footerlines::before {
+    content: '';
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    background: #4682B4;
+    width: 45%;
+    top: 45%;
+}
+
+
+.footerlines::after {
+    left: 0;
+}
+
+
+.footerlines::before {
+    right: 0;
+}
+
+
+.footercircle {
+    height: 40px;
+    width: 40px;
+    border: 2px solid #4682B4;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+
+
+.footercircle i {
+    display: table-cell;
+    vertical-align: middle; 
+    text-align: center; 
+
+    height: 40px;
+    width: 50px;   
+
+    color: #4682B4;
+}
+
+
 .social-links {
     font-size: 30px;
     cursor: pointer;
@@ -186,10 +245,63 @@ h1 {
     color: #fff;
 }
 
-#headerhr {
-    width: 60%;
-    margin: auto;
 
+.container {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+
+.lines {
+    width: 100%;
+    height: 45px;
+    position: relative;
+}
+
+
+.lines::after, .lines::before {
+    content: '';
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    background: #fff;
+    width: 45%;
+    top: 45%;
+}
+
+
+.lines::after {
+    left: 0;
+}
+
+
+.lines::before {
+    right: 0;
+}
+
+
+.circle {
+    height: 40px;
+    width: 40px;
+    border: 2px solid #fff;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+
+
+.circle i {
+    display: table-cell;
+    vertical-align: middle; 
+    text-align: center; 
+
+    height: 40px;
+    width: 50px;   
+
+    color: #fff;
 }
 
 
