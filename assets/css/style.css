@@ -162,6 +162,12 @@ button:hover {
 
 /* Services page */
 
+
+#row {
+    padding: 40px;
+}
+
+
 #services h2 {
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
@@ -174,7 +180,7 @@ button:hover {
 }
 
 
-.row img {
+#row img {
     width: 100%;
     height: auto;
     border-radius: 40px;
@@ -183,19 +189,23 @@ button:hover {
 }
 
 
-.row h3 {
+#row h3 {
     text-align: center;
     margin-right: auto;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 13px;
     color: #fff;
-    margin-top: 20px;
     text-transform: capitalize;
     text-decoration: underline  solid #fff 2px;
     text-underline-offset: 15px;
     font-size: 1.5em;
 }
 
+
+#box1 {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+}
 
 /* Benefits page */
 
@@ -252,7 +262,7 @@ h1 {
 }
 
 
-/* Services and Benefits line and circle*/
+/* Services and Benefits line and circle */
 
 
 .container {
