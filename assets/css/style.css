@@ -164,7 +164,9 @@ button:hover {
 
 
 #row {
-    padding: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 60px;
 }
 
 
@@ -180,16 +182,42 @@ button:hover {
 }
 
 
-#row img {
-    width: 100%;
-    height: auto;
+#box {
+    background-color: rgba(70, 130, 180, 0.2);
     border-radius: 40px;
-    border: 8px solid rgba(70, 130, 180, 0.3);
-    margin-top: 40px;
+    margin-bottom: 40px;
+    
 }
 
 
-#row h3 {
+#row img {
+    width: 95%;
+    height: auto;
+    border-radius: 40px;
+    border: 4px solid rgba(70, 130, 180, 0.2);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.imgbox {
+    position: relative;
+    top: 15px;
+}
+
+
+.textbox {
+    display: block;
+    max-width: 70%;
+    margin: auto;
+    float: none;
+    padding-bottom: 10px;
+}
+
+.textbox h3 {
+    padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
     margin-right: auto;
     font-family: 'Source Sans Pro', sans-serif;
@@ -201,11 +229,15 @@ button:hover {
 }
 
 
-#box1 {
-    background-color: #fff;
-    width: 100%;
-    height: auto;
+.textbox p {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 15px;
 }
+
+
+
 
 /* Benefits page */
 
@@ -242,7 +274,7 @@ h1 {
     font-family: 'Poppins', sans-serif;
     margin-top: 10px;
     text-align: left;
-    background-color: rgba(70, 130, 180, 0.3);
+    background-color: rgba(70, 130, 180, 0.2);
     border-radius: 30px;
     padding: 30px;
     font-size: 13px;
