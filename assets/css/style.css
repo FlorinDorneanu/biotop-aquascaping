@@ -11,6 +11,9 @@ body {
     max-width: 2500px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 
@@ -84,7 +87,7 @@ body {
 }
 
 
-/* headings and button */
+/* heading and button */
 
 
 .maintext {
@@ -244,7 +247,7 @@ button:hover {
 /* Benefits page */
 
 
-h1 {
+#benefitsh1 {
     text-align: center;
     margin-top: 70px;
     margin-bottom: 10px;
@@ -259,6 +262,7 @@ h1 {
     width: 80%;
     padding-top: 50px;
     margin: 0 auto;
+    padding-bottom: 40px;
 }
 
 
@@ -359,13 +363,24 @@ h1 {
 }
 
 
+/* contact page */
+
+
+.contact {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /* footer */
 
 
 footer {
-   position: fixed;
-   bottom: 0;
-   width: 100%;
+   flex: 0 0 50px;
+   margin-top:  auto;
+   
 }
 
 
@@ -445,10 +460,4 @@ footer i {
     color: #4682B4;
     margin: 1%;
     padding-bottom: 20px;
-}
-
-@media (max-width: 1200px) {
-    .lines {
-       width: auto;
-    }
 }
