@@ -9,8 +9,7 @@
 
 body {
     max-width: 2500px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -121,7 +120,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -220,6 +219,7 @@ button:hover {
     margin: auto;
     float: none;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 .textbox h3 {
@@ -249,7 +249,7 @@ button:hover {
 /* Benefits page */
 
 
-#benefitsh1 {
+#benefits-h1 {
     text-align: center;
     margin-top: 70px;
     margin-bottom: 10px;
@@ -287,6 +287,7 @@ button:hover {
     padding: 30px;
     font-size: 13px;
     letter-spacing: 2px;
+    text-align: center;
     
 }
 
@@ -487,19 +488,19 @@ footer {
 }
 
 
-.footercontainer {
+.footer-container {
     padding-left: 300px;
     padding-right: 300px;
 }
 
 
-.footerlines {
+.footer-lines {
     width: 100%;
     position: relative;
 }
 
 
-.footerlines::after, .footerlines::before {
+.footer-lines::after, .footer-lines::before {
     content: '';
     position: absolute;
     margin: auto;
@@ -510,17 +511,17 @@ footer {
 }
 
 
-.footerlines::after {
+.footer-lines::after {
     left: 0;
 }
 
 
-.footerlines::before {
+.footer-lines::before {
     right: 0;
 }
 
 
-.footercircle {
+.footer-circle {
     height: 40px;
     width: 40px;
     border: 2px solid #4682B4;
@@ -529,7 +530,7 @@ footer {
 }
 
 
-.footercircle i {
+.footer-circle i {
     display: table-cell;
     vertical-align: middle; 
     text-align: center; 
@@ -568,4 +569,131 @@ footer i {
         flex-direction: column;
         text-align: center;
     }
+
+}
+
+
+@media (max-width: 1179px) {
+
+    
+    .container {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+
+    .lines::after, .lines::before {
+        width: 44%;
+    }
+
+    .footer-container {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .footerlines::after, .footerlines::before {
+        width: 44%;
+    }
+
+}
+
+
+@media (max-width: 1047px) {
+
+    #row {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .container {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .lines::after, .lines::before {
+        width: 44%;
+    }
+
+    .footer-container {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .footerlines::after, .footerlines::before {
+        width: 44%;
+    }
+}
+
+
+@media (max-width: 935px) {
+    .lines::after, .lines::before {
+        width: 43%;
+    }
+
+    .footer-lines::after, .footer-lines::before {
+        width: 43%;
+    }
+}
+
+
+@media (max-width: 855px) {
+
+    .container {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .lines::after, .lines::before {
+        width: 42%;
+    }
+
+    .footer-container {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .footer-lines::after, .footer-lines::before {
+        width: 42%;
+    }
+}
+
+
+@media (max-width: 650px) {
+    #row {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .nav-bar {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .nav-bar ul li {
+        margin: 0 5px;
+    }
+
+    #services h2 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .lines::after, .lines::before {
+        width: 41%;
+    }
+
+    .footer-container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .footer-lines::after, .footer-lines::before {
+        width: 41%;
+    }
+
 }
