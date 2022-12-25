@@ -7,23 +7,17 @@
 }
 
 
-body {
-    max-width: 2500px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-
 /* banner-image */
 
-.banner-image {
-    max-width: 100%;
-    min-height: 100vh;
+body {
+    width: 100%;
+    height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url(../images/aquascaping-photo.JPG);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -91,25 +85,22 @@ body {
 /* heading and button */
 
 
-.maintext {
+.main-text {
     width: 100%;
-    position: absolute;
-    top: 60%;
-    transform: translateY(-50%);
     text-align: center;
     color: #fff;
-    padding-bottom: 100px;
+    padding-top: 350px;
 }
 
-.maintext h1 {
+.main-text h1 {
     text-transform: uppercase;
     margin-top: 80px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 70px;
+    font-size: 4.375rem;
 }
 
 
-.maintext p {
+.main-text p {
     font-family: 'Poppins', sans-serif;
     line-height: 25px;
     letter-spacing: 2px;
@@ -131,7 +122,7 @@ button {
     text-align: center;
     border-radius: 35px;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     border: 2px solid #4682B4;
     background: transparent;
     color: #fff;
@@ -167,6 +158,11 @@ button:hover {
 
 
 /* Services page */
+
+
+#services {
+    margin-bottom: 50px;
+}
 
 
 #row {
@@ -281,11 +277,10 @@ button:hover {
 #benefits p {
     font-family: 'Poppins', sans-serif;
     margin-top: 10px;
-    text-align: left;
     background-color: rgba(70, 130, 180, 0.2);
     border-radius: 30px;
     padding: 30px;
-    font-size: 13px;
+    font-size: 0.813rem;
     letter-spacing: 2px;
     text-align: center;
     
@@ -293,6 +288,10 @@ button:hover {
 
 .benefit2, .benefit3, .benefit4  {
     padding-top: 50px;
+}
+
+.benefit4 {
+    padding-bottom: 50px;
 }
 
 
@@ -362,6 +361,15 @@ button:hover {
 /* contact page */
 
 
+.contact-h1 h1 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+
 .contact {
     min-height: 50vh;
     display: flex;
@@ -386,11 +394,20 @@ button:hover {
 
 .contact form h1 {
     color: #fff;
-    font-weight: 500;
     margin-top: 20px;
     width: 500px;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.contact form h2{
+    color: #fff;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.8rem;
 }
 
 
@@ -400,7 +417,7 @@ button:hover {
     padding-left: 10px;
     outline: none;
     border: none;
-    font-size: 15px;
+    font-size: 0.938rem;
     margin-bottom: 10px;
     background: none;
     border-bottom: 2px solid #fff;
@@ -420,12 +437,13 @@ button:hover {
 }
 
 
-.contact form h4 {
+.contact form label {
     color: #fff;
-    font-weight: 300;
-    width: 600px;
+    font-size: 1.35rem;
     margin-top: 20px;
     font-family: 'Source Sans Pro', sans-serif;
+    width: 630px;
+    padding-right: 10px;
 }
 
 
@@ -435,10 +453,10 @@ button:hover {
     border-bottom: 2px solid #fff;
     color: #fff;
     font-weight: 200;
-    font-size: 15px;
-    padding: 10px;
+    font-size: 0.938rem;
+    padding-right: 10px;
     outline: none;
-    min-width: 600px;
+    min-width: 630px;
     max-width: 600px;
     min-height: 80px;
     max-height: 80px;
@@ -462,11 +480,11 @@ textarea::-webkit-scrollbar-thumb {
     border-radius: 35px;
     margin-top: 20px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #333;
     width: 100px;
     padding: 0;
-    margin-right: 500px;
+    margin-right: 540px;
     margin-bottom: 30px;
     transition: 0.3s;
     cursor: pointer;
@@ -484,13 +502,14 @@ textarea::-webkit-scrollbar-thumb {
 footer {
    flex: 0 0 50px;
    margin-top:  auto;
-   
+   position: relative;
 }
 
 
 .footer-container {
     padding-left: 300px;
     padding-right: 300px;
+    padding-bottom: 20px;
 }
 
 
@@ -543,7 +562,7 @@ footer {
 
 
 .social-links {
-    font-size: 30px;
+    font-size: 1.875rem;
     text-align: center;
     margin: auto;
     padding-top: 10px;
@@ -551,6 +570,7 @@ footer {
 
 .social-links > li {
     display: inline;
+    margin-right: 20px;
 }
 
 footer i {
@@ -598,7 +618,11 @@ footer i {
 }
 
 
-@media (max-width: 1047px) {
+@media (max-width: 1000px) {
+
+    .main-text h1 {
+        padding: 0 40px;
+    }
 
     #row {
         padding-right: 30px;
@@ -665,8 +689,7 @@ footer i {
     }
 
     .nav-bar {
-        margin-left: 50px;
-        margin-right: 50px;
+       text-align: center;
     }
 
     .nav-bar ul li {
@@ -687,6 +710,27 @@ footer i {
         width: 41%;
     }
 
+    .contact form {
+        width: 550px;
+    }
+
+    .contact form #lastname, 
+    .contact form #mobile {
+        margin-left: 0px;
+    }
+
+    .contact form label {
+        padding-left: 45px;
+    }
+
+    .contact form textarea {
+        min-width: 450px;
+    }
+
+    .contact form #button {
+        margin-right: 0px;
+    }
+
     .footer-container {
         padding-left: 50px;
         padding-right: 50px;
@@ -695,5 +739,6 @@ footer i {
     .footer-lines::after, .footer-lines::before {
         width: 41%;
     }
+
 
 }

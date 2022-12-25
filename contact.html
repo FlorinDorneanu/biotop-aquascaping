@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Biotop Aquascape</title>
 </head>
-<body class="banner-image">
+<body>
     <div class="nav-bar">
             <a href="index.html">
                 <img src="assets/images/logo.png" alt="Biotop Aquascaping logo" class="logo">
@@ -22,15 +22,25 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
+        <div class="contact-h1">
+            <h1>Get in touch with an aquascaper</h1>
+        </div>
+        <div class="container">
+            <div class="lines">
+                <div class="circle">
+                    <i class="fa-solid fa-address-card"></i>
+                </div>
+            </div>
+        </div>
         <div class="contact">
             <form>
-                <h1>Contact Us</h1>
+                <h2>Contact Us</h2>
                 <input type="text" id="firstname" placeholder="First Name" required>
                 <input type="text" id="lastname" placeholder="Last Name" required>
                 <input type="email" id="email" placeholder="Email" required>
                 <input type="text" id="mobile" placeholder="Mobile" required>
-                <h4>Type Your Message Here...</h4>
-                <textarea required></textarea>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Type Your Message Here..." required></textarea>
                 <input type="submit" value="Send" id="button">
             </form>
         </div>
