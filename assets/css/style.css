@@ -373,12 +373,8 @@ button:hover {
 }
 
 .contact {
-    min-height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px;
-    padding-bottom: 150px;
+   margin: auto;
+   max-width: 100%;
 }
 
 .contact form {
@@ -458,10 +454,7 @@ button:hover {
     font-size: 0.938rem;
     padding-right: 10px;
     outline: none;
-    min-width: 630px;
-    max-width: 600px;
-    min-height: 80px;
-    max-height: 80px;
+    width: 84%;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -683,6 +676,11 @@ footer i {
     }
 }
 
+@media screen and (max-width:790px){
+    .contact form {
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 650px) {
     #row {
@@ -712,8 +710,8 @@ footer i {
         width: 41%;
     }
 
-    .contact form {
-        width: 550px;
+    .contact form input {
+        padding: 0px 20px;
     }
 
     .contact form #lastname, 
