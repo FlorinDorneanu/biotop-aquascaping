@@ -31,17 +31,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
+    flex-direction: column;
+    text-align: center;
 }
 
 
 .logo {
-    width: 100%;
+    width: 70%;
     height: auto;
     cursor: pointer;
-    padding: 50px;
-    margin-right: 40px;
+    padding-top: 100px;
+    padding-bottom: 70px;
 }
 
 
@@ -49,7 +49,6 @@ body {
     list-style: none;
     display: inline-block;
     margin: 0 10px;
-    position: relative;
 }
 
 
@@ -174,10 +173,10 @@ button:hover {
 }
 
 
-#services h2 {
+#services h1 {
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 2em;
+    font-size: 1.8rem;
     text-transform: uppercase;
     color: #fff;
     margin-top: 70px;
@@ -220,7 +219,7 @@ button:hover {
     text-align: center;
 }
 
-.textbox h3 {
+.textbox h2 {
     padding-top: 20px;
     padding-bottom: 30px;
     text-align: center;
@@ -247,17 +246,18 @@ button:hover {
 /* benefits page */
 
 
-#benefits-h1 {
+#benefits h1 {
     text-align: center;
     margin-top: 70px;
     margin-bottom: 10px;
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     color: #fff;
+    font-size: 1.8rem;
 }
 
 
-#benefits {
+#benefits-columns {
     color: #fff;
     width: 80%;
     padding-top: 50px;
@@ -266,7 +266,7 @@ button:hover {
 }
 
 
-#benefits h2 {
+#benefits-columns h2 {
     text-transform: capitalize;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 60px;
@@ -276,7 +276,7 @@ button:hover {
 }
 
 
-#benefits p {
+#benefits-columns p {
     font-family: 'Poppins', sans-serif;
     margin-top: 10px;
     background-color: rgba(70, 130, 180, 0.2);
@@ -296,7 +296,7 @@ button:hover {
 }
 
 
-#benefits i {
+#benefits-columns i {
     color: #4682B4;
     margin-left: 20px;
     text-decoration: underline  solid #4682B4 2px;
@@ -581,11 +581,6 @@ footer i {
 
 
 @media screen and (max-width: 1400px) {
-    
-    .nav-bar {
-        flex-direction: column;
-        text-align: center;
-    }
 
     .contact {
         padding-top: 50px;
@@ -734,10 +729,6 @@ footer i {
     #row {
         padding-right: 20px;
         padding-left: 20px;
-    }
-
-    .nav-bar {
-       text-align: center;
     }
 
     .nav-bar ul li {
