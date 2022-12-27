@@ -203,13 +203,13 @@ button:hover {
 }
 
 
-.imgbox {
+.img-box {
     position: relative;
     top: 15px;
 }
 
 
-.textbox {
+.text-box {
     display: block;
     max-width: 70%;
     margin: auto;
@@ -218,7 +218,7 @@ button:hover {
     text-align: center;
 }
 
-.textbox h2 {
+.text-box h2 {
     padding-top: 20px;
     padding-bottom: 30px;
     text-align: center;
@@ -232,11 +232,11 @@ button:hover {
 }
 
 
-.textbox p {
+.text-box p {
     font-family: 'Poppins', sans-serif;
     letter-spacing: 2px;
     color: #fff;
-    font-size: 15px;
+    font-size: 0.938rem;
 }
 
 
@@ -361,7 +361,7 @@ button:hover {
 /* contact page */
 
 
-.contact-header h1 {
+#contact-header h1 {
     text-align: center;
     margin-top: 70px;
     margin-bottom: 10px;
@@ -850,7 +850,7 @@ footer i {
     }
 
     .main-text p {
-        letter-spacing: 0px;
+        letter-spacing: 1px;
         width: 85%;
         font-size: 0.835rem;
         margin-top: 30px;
@@ -864,6 +864,28 @@ footer i {
     }
 
     #services h1 {
+        font-size: 1.3rem;
+    }
+
+    #row {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .text-box h2 {
+        font-size: 1.2rem;
+    }
+
+    .text-box p {
+        font-size: 0.835rem;
+        letter-spacing: 1px
+    }
+
+    #benefits h1 {
+        font-size: 1.3rem;
+    }
+
+    #contact-header h1 {
         font-size: 1.3rem;
     }
 
