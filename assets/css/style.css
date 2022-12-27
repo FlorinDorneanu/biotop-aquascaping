@@ -49,6 +49,7 @@ body {
     list-style: none;
     display: inline-block;
     margin: 0 10px;
+    position: relative;
 }
 
 
@@ -95,9 +96,9 @@ body {
 
 .main-text h1 {
     text-transform: uppercase;
-    margin-top: 80px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 3rem;
+    padding-top: 150px;
 }
 
 
@@ -181,7 +182,6 @@ button:hover {
     color: #fff;
     margin-top: 70px;
     margin-bottom: 10px;
-    font-weight: bold;
 }
 
 
@@ -189,7 +189,6 @@ button:hover {
     background-color: rgba(70, 130, 180, 0.2);
     border-radius: 40px;
     margin-bottom: 40px;
-    
 }
 
 
@@ -362,13 +361,14 @@ button:hover {
 /* contact page */
 
 
-.contact-h1 {
+.contact-header h1 {
     text-align: center;
     margin-top: 70px;
     margin-bottom: 10px;
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     color: #fff;
+    font-size: 1.8rem;
 }
 
 .contact {
@@ -377,6 +377,7 @@ button:hover {
    padding-top: 50px;
    padding-bottom: 50px;
 }
+
 
 .contact form {
     width: 760px;
@@ -391,22 +392,12 @@ button:hover {
 }
 
 
-.contact form h1 {
-    color: #fff;
-    margin-top: 20px;
-    width: 500px;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-
 .contact form h2 {
     color: #fff;
     margin-top: 20px;
     width: 500px;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.8rem;
 }
 
 
@@ -580,6 +571,15 @@ footer i {
 /* media queries */
 
 
+@media screen and (min-width: 2000px) {
+
+#box {
+    margin: 40px auto;
+    max-width: 70%;
+    }
+}
+
+
 @media screen and (max-width: 1400px) {
 
     .contact {
@@ -599,7 +599,8 @@ footer i {
     }
 
 
-    .lines::after, .lines::before {
+    .lines::after,
+    .lines::before {
         width: 44%;
     }
 
@@ -608,8 +609,30 @@ footer i {
         padding-right: 200px;
     }
 
-    .footerlines::after, .footerlines::before {
+    .footerlines::after, 
+    .footerlines::before {
         width: 44%;
+    }
+
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    .logo {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .nav-bar {
+        justify-content: space-around;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .nav-bar ul li a {
+        letter-spacing: 1px;
+        padding-right: 5px;
     }
 
 }
@@ -618,7 +641,7 @@ footer i {
 @media screen and (max-width: 1000px) {
 
     .main-text h1 {
-        padding: 0 40px;
+        padding-top: 50px;
     }
 
     #row {
@@ -631,7 +654,8 @@ footer i {
         padding-right: 150px;
     }
 
-    .lines::after, .lines::before {
+    .lines::after, 
+    .lines::before {
         width: 44%;
     }
 
@@ -640,7 +664,8 @@ footer i {
         padding-right: 150px;
     }
 
-    .footerlines::after, .footerlines::before {
+    .footerlines::after, 
+    .footerlines::before {
         width: 44%;
     }
 }
@@ -651,7 +676,8 @@ footer i {
         width: 43%;
     }
 
-    .footer-lines::after, .footer-lines::before {
+    .footer-lines::after, 
+    .footer-lines::before {
         width: 43%;
     }
 }
@@ -660,11 +686,12 @@ footer i {
 @media screen and (max-width: 855px) {
 
     .container {
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 60px;
+        padding-right: 60px;
     }
 
-    .lines::after, .lines::before {
+    .lines::after, 
+    .lines::before {
         width: 42%;
     }
 
@@ -695,13 +722,20 @@ footer i {
         padding-right: 100px;
     }
 
-    .footer-lines::after, .footer-lines::before {
+    .footer-lines::after, 
+    .footer-lines::before {
         width: 42%;
     }
 
 }
 
 @media screen and (max-width:700px) {
+
+    .main-text h1 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     .contact form {
         width: 500px;
         height: 500px;
@@ -726,6 +760,12 @@ footer i {
 }
 
 @media screen and (max-width: 650px) {
+
+    .logo {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    }
+
     #row {
         padding-right: 20px;
         padding-left: 20px;
@@ -739,18 +779,17 @@ footer i {
         letter-spacing: 2px;
     }
 
-    #services h2 {
-        margin-left: 50px;
-        margin-right: 50px;
-        font-size: 1.8rem;
+    .main-text p {
+        width: 70%;
+        padding: 15px;
     }
 
-    #benefits-h1 h1 {
-        font-size: 1.8rem;
+    #services h1 {
+        padding: 0 20px;
     }
 
-    .contact-h1 h1 {
-        font-size: 1.8rem;
+    #benefits h1 {
+        padding: 0 20px;
     }
 
     .container {
@@ -758,7 +797,8 @@ footer i {
         padding-right: 50px;
     }
 
-    .lines::after, .lines::before {
+    .lines::after,
+    .lines::before {
         width: 41%;
     }
 
@@ -785,10 +825,87 @@ footer i {
         padding-right: 50px;
     }
 
-    .footer-lines::after, .footer-lines::before {
+    .footer-lines::after, 
+    .footer-lines::before {
         width: 41%;
     }
 
+}
+
+
+@media screen and (max-width: 450px) {
+
+    .logo {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        width: 80%;
+    }
+
+    .nav-bar ul li a {
+        letter-spacing: 0px;
+    }
+
+    .main-text h1 {
+        font-size: 1.8rem;
+    }
+
+    .main-text p {
+        letter-spacing: 0px;
+        width: 85%;
+        font-size: 0.835rem;
+        margin-top: 30px;
+    }
+
+    button {
+        width: 120px;
+        min-height: 40px;
+        letter-spacing: 1px;
+        font-size: 1rem;
+    }
+
+    #services h1 {
+        font-size: 1.3rem;
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .lines::after, 
+    .lines::before {
+        width: 39%;
+    }
+
+    .circle {
+        width: 35px;
+        height: 35px;
+    }
+
+    .circle i {
+        width: 45px;
+        height: 35px;
+    }
+
+    .footer-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footer-lines::after, 
+    .footer-lines::before {
+        width: 39%;
+    }
+
+    .footer-circle {
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer-circle i {
+        width: 45px;
+        height: 35px;
+    }
 }
 
 
