@@ -178,7 +178,7 @@ button:hover {
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.8rem;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #fff;
     margin-top: 70px;
     margin-bottom: 10px;
@@ -250,7 +250,7 @@ button:hover {
     margin-top: 70px;
     margin-bottom: 10px;
     font-family: 'Source Sans Pro', sans-serif;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #fff;
     font-size: 1.8rem;
 }
@@ -272,6 +272,7 @@ button:hover {
     text-decoration: underline  solid #fff 2px;
     text-underline-offset: 15px;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 
@@ -366,7 +367,7 @@ button:hover {
     margin-top: 70px;
     margin-bottom: 10px;
     font-family: 'Source Sans Pro', sans-serif;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #fff;
     font-size: 1.8rem;
 }
@@ -557,7 +558,7 @@ footer {
 
 .social-links > li {
     display: inline;
-    margin-right: 20px;
+    margin: 10px;
 }
 
 footer i {
@@ -617,7 +618,7 @@ footer i {
 }
 
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1010px) {
 
     .logo {
         padding-top: 70px;
@@ -631,7 +632,7 @@ footer i {
     }
 
     .nav-bar ul li a {
-        letter-spacing: 1px;
+        letter-spacing: 2px;
         padding-right: 5px;
     }
 
@@ -639,6 +640,10 @@ footer i {
 
 
 @media screen and (max-width: 1000px) {
+
+    .nav-bar ul li a {
+        letter-spacing: 1px;
+    }
 
     .main-text h1 {
         padding-top: 50px;
@@ -747,11 +752,7 @@ footer i {
     }
 
     .contact form label {
-        text-align: center;
-    }
-
-    .contact form label {
-        margin-left: 0px;
+        margin-left: 35px;
     }
 
     .contact form textarea {
@@ -812,7 +813,7 @@ footer i {
     }
 
     .contact form label {
-        padding-left: 45px;
+        margin-left: 35px;
     }
 
 
@@ -833,12 +834,20 @@ footer i {
 }
 
 
+@media screen and (max-width: 520px) {
+    .contact form {
+        width: 400px;
+        height: 500px;
+    }
+}
+
+
 @media screen and (max-width: 450px) {
 
     .logo {
         padding-top: 30px;
         padding-bottom: 40px;
-        width: 80%;
+        width: 90%;
     }
 
     .nav-bar ul li a {
@@ -885,8 +894,35 @@ footer i {
         font-size: 1.3rem;
     }
 
+    #benefits-columns h2 {
+        font-size: 1.2rem;
+    }
+
+    #benefits-columns p {
+        padding: 10px;
+        font-size: 0.835rem;
+        letter-spacing: 1px;
+    }
+
     #contact-header h1 {
         font-size: 1.3rem;
+    }
+
+    .contact form {
+        width: 300px;
+        height: 450px;
+    }
+    .contact form input {
+        width: 240px;
+    }
+
+    .contact form label {
+        margin-left: 20px;
+    }
+
+    .contact form #button {
+        width: 70px;
+        font-size: 1rem;
     }
 
     .container {
