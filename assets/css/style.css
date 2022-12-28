@@ -718,7 +718,7 @@ footer i {
     }
 
     .contact form #button {
-        margin-right: 0;
+        margin-right: 456px;
     }
 
     .footer-container {
@@ -752,6 +752,10 @@ footer i {
 
     .contact form label {
         margin-left: 35px;
+    }
+
+    .contact form #button {
+        margin-right: 330px;
     }
 
     .contact form textarea {
