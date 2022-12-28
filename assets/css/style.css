@@ -231,6 +231,7 @@ button:hover {
     color: #fff;
     text-transform: capitalize;
     text-decoration: underline  solid #fff 2px;
+    -webkit-text-decoration: underline  solid #fff 2px;
     text-underline-offset: 15px;
     font-size: 1.5em;
 }
@@ -1018,8 +1019,8 @@ footer i {
     }
 
     .footer-circle {
-        width: 35px;
-        height: 35px;
+        width: 40px;
+        height: 40px;
     }
 
     .footer-circle i {
