@@ -654,6 +654,11 @@ footer i {
 
 @media screen and (max-width: 1099px) {
 
+    .logo {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+
     .nav-bar ul li a {
         letter-spacing: 2px;
     }
@@ -747,7 +752,17 @@ footer i {
 
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width: 770px) {
+
+    .nav-bar ul li::after {
+        width: 100%;
+        height: 3px;
+        bottom: -5px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
 
     .main-text h1 {
         padding-left: 20px;
@@ -852,6 +867,12 @@ footer i {
 
 
 @media screen and (max-width: 520px) {
+
+    .logo {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
     .contact form {
         width: 400px;
         height: 500px;
@@ -868,15 +889,6 @@ footer i {
 
 
 @media screen and (max-width: 450px) {
-
-    .logo {
-        padding-top: 30px;
-        padding-bottom: 40px;
-    }
-
-    .nav-bar img {
-        max-width: 90%;
-    }
 
     .nav-bar ul {
         font-size: 80%;
@@ -906,6 +918,7 @@ footer i {
         min-height: 40px;
         letter-spacing: 1px;
         font-size: 1rem;
+        margin: 20px 30px;
     }
 
     #services h1 {
@@ -939,6 +952,8 @@ footer i {
 
     #benefits-columns h2 {
         font-size: 1.1rem;
+        text-decoration: underline  solid #fff 2px;
+        text-underline-offset: 15px;
     }
 
     #benefits-columns p {
@@ -1011,6 +1026,14 @@ footer i {
         width: 45px;
         height: 35px;
     }
+}
+
+@media screen and (max-width: 350px) {
+
+    .nav-bar img {
+        max-width: 90%;
+    }
+
 }
 
 
