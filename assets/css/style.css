@@ -274,6 +274,7 @@ button:hover {
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 60px;
     text-decoration: underline  solid #fff 2px;
+    -webkit-text-decoration: underline  solid #fff 2px;
     text-underline-offset: 15px;
     text-align: center;
     font-size: 1.5rem;
@@ -1018,15 +1019,7 @@ footer i {
         width: 39%;
     }
 
-    .footer-circle {
-        width: 40px;
-        height: 40px;
-    }
 
-    .footer-circle i {
-        width: 45px;
-        height: 35px;
-    }
 }
 
 @media screen and (max-width: 350px) {
