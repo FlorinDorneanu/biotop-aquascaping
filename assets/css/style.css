@@ -926,11 +926,11 @@ footer i {
     }
 
     #benefits h1 {
-        font-size: 1.3rem;
+        font-size: 1.3em;
     }
 
     #benefits-columns h2 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     #benefits-columns p {
@@ -943,6 +943,7 @@ footer i {
 
     #contact-header h1 {
         font-size: 1.3rem;
+        padding: 0 20px;
     }
 
     .contact form {
