@@ -581,16 +581,9 @@ footer i {
 /* media queries */
 
 
-@media screen and (min-width: 2000px) {
-
-#box1, #box2, #box3 {
-    margin: 40px auto;
-    max-width: 70%;
-    }
-}
-
-
 @media screen and (max-width: 1400px) {
+
+    
 
     .contact {
         padding-top: 50px;
@@ -625,6 +618,15 @@ footer i {
     }
 
 }
+
+
+@media screen and (min-width: 1011px) {
+
+    #box1, #box2, #box3 {
+        margin: 40px auto;
+        max-width: 70%;
+        }
+    }
 
 
 @media screen and (min-width: 1100px) {
