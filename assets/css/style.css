@@ -870,7 +870,10 @@ footer i {
     .logo {
         padding-top: 30px;
         padding-bottom: 40px;
-        width: 90%;
+    }
+
+    .nav-bar img {
+        max-width: 90%;
     }
 
     .nav-bar ul {
