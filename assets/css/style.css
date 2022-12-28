@@ -641,6 +641,9 @@ footer i {
 
     .nav-bar ul li a {
         letter-spacing: 3px;
+    }
+
+    .nav-bar ul {
         padding-right: 20px;
     }
 
