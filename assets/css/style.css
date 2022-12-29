@@ -216,24 +216,24 @@ button:hover {
 
 .text-box h2 {
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
     margin-right: auto;
-    text-align: center;
+    margin-left: auto;
+    width: fit-content;
 
     font-family: 'Source Sans Pro', sans-serif;
     color: #fff;
     font-size: 1.5em;
     text-transform: capitalize;
     
-    text-decoration: underline solid #fff 2px !important;
-    -webkit-text-decoration: underline solid #fff 2px !important;
-    text-underline-offset: 15px;
+    border-bottom: 2px solid #fff;
 }
 
 .text-box p {
     font-family: 'Poppins', sans-serif;
     color: #fff;
     font-size: 1.4rem;
+    padding-top: 10px;
 }
 
 /* benefits page */
@@ -263,11 +263,11 @@ button:hover {
     font-family: 'Source Sans Pro', sans-serif;
 
     text-align: center;
-    line-height: 3.75rem;
-
-    text-decoration: underline solid #fff 2px !important;
-    -webkit-text-decoration: underline solid #fff 2px !important;
-    text-underline-offset: 15px;
+    line-height: 2.5rem;
+    
+    width: fit-content;
+    border-bottom: 2px solid #fff;
+    margin: 0 auto;
 }
 
 #benefits-columns p {
@@ -278,7 +278,7 @@ button:hover {
     border-radius: 30px;
 
     padding: 30px;
-    margin-top: 10px;
+    margin-top: 25px;
     text-align: center;
     line-height: 1.875rem;
 
@@ -292,12 +292,6 @@ button:hover {
 
 .benefit4 {
     padding-bottom: 50px;
-}
-
-#benefits-columns i {
-    color: #fff;
-    margin-left: 20px;
-    text-decoration: underline solid #fff 2px;
 }
 
 /* contact page */
@@ -819,7 +813,9 @@ footer i {
     }
 
     .contact form #button {
-        margin-right: 0px;
+        margin-right: auto;
+        margin-left: auto;
+
     }
 
     .footer-container {
@@ -921,8 +917,6 @@ footer i {
 
     #benefits-columns h2 {
         font-size: 1.1rem;
-        text-decoration: underline solid #fff 2px;
-        text-underline-offset: 15px;
     }
 
     #benefits-columns p {
@@ -950,11 +944,6 @@ footer i {
 
     .contact form label {
         margin-left: 20px;
-    }
-
-    .contact form #button {
-        width: 70px;
-        font-size: 1rem;
     }
 
     .container {
