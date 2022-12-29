@@ -298,6 +298,10 @@ button:hover {
     padding-bottom: 50px;
 }
 
+.benefit4 a {
+    text-decoration: none;
+}
+
 /* contact page */
 
 #contact-header h1 {
