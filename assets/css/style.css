@@ -284,6 +284,10 @@ button:hover {
 
 }
 
+#benefits-columns  i {
+    margin-left: 5px;
+}
+
 .benefit2,
 .benefit3,
 .benefit4 {
