@@ -63,7 +63,7 @@ This website will consists of four pages:
 
 
 ## Skeleton
-* Home Page Wireframes - [desktop and mobile](images-readme/home-wireframes2.png)
+* Home Page Wireframes - [desktop and mobile](images-readme/home-wireframes.png)
 * Services Page Wireframes - [desktop and mobile](images-readme/services-wireframe.png)
 * Benefits Page Wireframes - [desktop and mobile](images-readme/benefits-wireframe.png)
 * Contact Page Wireframes - [desktop and mobile](images-readme/contact-wireframe.png)
