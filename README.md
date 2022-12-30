@@ -93,6 +93,35 @@ This code was imported at the top of the style.css file:
 * The "Send" button from the contact form was styled white with black text for contrast purposes.
 * The colour "Teal" was used for styling the social links. The media links will send the use to "Biotope Aquascaping" social media pages.
 ***
+## Features
+### Navigation Bar and Logo
+The navigation bar and logo are set at the top of the webpage. The navigation links are highlighted when hovered over. When clicked, the logo sends the user to the home page. The navigation links take the user tp the correct page of the website. For the larger screens, the logo is placed in the top left corner of the webpage and the navigation is in the top right corner of the webpage. On smaller screens, the navigation bar goes under the logo and both elements are centered.
+
+### Responsiveness
+The website is responsive at all breakpoints. The page layout will change to something more suited to smaller devices when needed. This has been achieved using media queries. This is to make the site easier to use for people with visual impairments by allowing them to navigate the site easily.
+
+### Accessibility 
+Alt-attribute and aria-label have been added to every image and navigation link. Header elements have been used in sequence so that the site makes semantic sense to screen readers. High contrast has been used throughout the design.
+
+### Footer
+The footer contains the social links for [Facebook](https://www.facebook.com/), [Twitter](https://twitter.com/), [Youtube](https://www.youtube.com/) and [Instagram](https://www.instagram.com/).
+
+### Home Page
+Features an inviting heading, a small description and a "Services" button. All of them are positoned in the center of the page.
+
+### Services Page
+A heading is placed at the top of the page. Underneath the heading, an icon is set inside a circle designed with two lines by its sides. Moving further, this page consists of three types of aquariums that the business can provide. An image and a description of every type of aquarium are set at each one of them. As this is a fictive business created for the Milestone Project One, the images were taken from [this website]() and the descriptions were inspired by [this website]().
+
+### Benefits Page
+As in the "Services" page, heading is placed at the top of the page, having the same style for the icon. This page contains four benefits of aquascape aquariums. Every benefit has a description of it. In the "Reduces Axiety" section an external link for a study is provided so that the user can learn even more from there. On the right side of each benefit title, an specific icon can be found.
+
+### Contact Page
+Consists of:
+* A contact form;
+* The form includes fields for the user to enter their business name and contact details using - input type="text";
+* The email input field requires the answer to be an email;
+
+
 
 
 
