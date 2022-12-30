@@ -120,8 +120,74 @@ Consists of:
 * A contact form;
 * The form includes fields for the user to enter their business name and contact details using - input type="text";
 * The email input field requires the answer to be an email;
+* The "Mobile" input field must be a number to be valid;
+* There is a - textarea - to allow the user to ask any further details. I have used placeholder text to encourage the user to make any further comments;
+* The submit button has high contrast;
+* The form is stacked for mobile use;
+* All fiels are set to "required".
+***
 
+## Technologies Used
+* HTML5 - Mark-up language using semantic structure.
+* CSS3 - Cascading style sheet used for styling.
+* Gitpod.io - For writing the code, using the command line for commiting and pushing to GitHub.
+* GitHub - Used to host the repository.
+* Git - Used for version control of the project.
 
+### Design
+* [Google fonts](https://fonts.google.com/) - For styling the typography.
+* [Balsamiq wireframe](https://balsamiq.cloud/) - To build wireframes in the design phase.
+* [Font Awesome](https://fontawesome.com/) - For the social media icons.
+* [Beautifier](https://beautifier.io) - To beautify my code.
+* [Tiny PNG](https://tinypng.com/) - To compress my images.
+* [Online-Convert](https://image.online-convert.com/convert-to-webp) - To convert my images to WebP.
+
+### Testing
+* [HTML Validator](https://validator.w3.org/#validate_by_input) - Testing validity of HTML.
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) - Testing validity of CSS.
+* [Am I Responsive](https://ui.dev/amiresponsive#) - Checking the responsive nature and creating the mock-ups provided.
+* DEV Tools - Lighthouse.
+
+## Testing
+* Tested that the logo sends the user to the home page.
+* Tested if the user is sent to the correct page of the website when clicking the navigation links.
+* Tested that the "Services" button works.
+* Tested that the "Send" button works.
+* Attempting to submit the form without required fields results in a browser error message.
+* Attempting to submit the form with an email that doesn't contain the appropriate tokens results in a browser error message.
+* Submitting the form with all the correct information provided, sends the user to the Code Institute form dump, which displays data from all the fields.
+* Clicking on the social media links in the footer results in the browser navigating to the appropriate social media site in a new browser tab.
+
+[HTML Validator]((https://validator.w3.org))
+
+![HTML Validator Home Page](images-readme/homepage-validator.png)
+
+![HTML Validator Services Page](images-readme/servicespage-validator.png)
+
+![HTML Validator Benefits Page](images-readme/benefitspage-validator.png)
+
+![HTML Validator Contact Page](images-readme/contactpage-validator.png)
+
+[CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+![CSS Validator](images-readme/css-validator.png)
+***
+
+### Performance Testing
+
+Tested using the Developer Tools Lighthouse for desktop and mobile :
+
+### Desktop
+![DevTools Home Page Desktop](images-readme/devtools-home-desktop.png)
+![DevTools Services Page Desktop](images-readme/devtools-services-desktop.png)
+![DevTools Benefits Page Desktop](images-readme/devtools-benefits-desktop.png)
+![DevTools Contact Page Desktop](images-readme/devtools-contact-desktop.png)
+
+### Mobile
+![DevTools Home Page Mobile](images-readme/devtools-home-mobile.png)
+![DevTools Services Page Mobile](images-readme/devtools-services-mobile.png)
+![DevTools Benefits Page Mobile](images-readme/devtools-benefits-mobile.png)
+![DevTools Contact Page Mobile](images-readme/devtools-contact-mobile.png)
 
 
 
