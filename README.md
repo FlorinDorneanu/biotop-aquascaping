@@ -29,7 +29,7 @@ The GitHub repository can be viewed here - [FlorinDorneanu/biotope-aquascaping](
 
 ### Returning Visitor Goals
 * As a returning visitor, I want to find the best way to contact the business;
-* As a returning visitor, I want to find the social links.
+* As a returning visitor, I want to find the social links with ease.
 
 ### Reasons a user may visit the site 
 * A user looking to know more about aquascaping;
@@ -59,14 +59,14 @@ This website will consists of four pages:
 * A Home page, with a small description and a "services" button;
 * A Services page which will contain three services that the business has to offer;
 * A Benefits page that lists the benefits of having an aquascape aquarium;
-* A Contact page with a form to get in touch with "Biotop Aquascaping".
+* A Contact page with a form to get in touch with "Biotope Aquascaping".
 
 
 ## Skeleton
 * Home Page Wireframes - [desktop and mobile](images-readme/home-wireframe.png)
-* Services Page Wireframes - [desktop and mobile](images-readme/home-wireframe.png)
-* Benefits Page Wireframes - [desktop and mobile](images-readme/home-wireframe.png)
-* Contact Page Wireframes - [desktop and mobile](images-readme/home-wireframe.png
+* Services Page Wireframes - [desktop and mobile](images-readme/services-wireframe.png)
+* Benefits Page Wireframes - [desktop and mobile](images-readme/benefits-wireframe.png)
+* Contact Page Wireframes - [desktop and mobile](images-readme/contact-wireframe.png)
 
 ## Surface
 
@@ -88,14 +88,14 @@ This code was imported at the top of the style.css file:
 ```
 
 ### Call to Action
-* The navigation bar in the header section are highlighted with a nice hover effect: an underline that start from the left side and goes for 0.4 seconds to the right side when the mouse is hovered over them.
-* On the Home page, a "Services" button has been added for the user to easily access it when entering the website. For consistency reasons, the button has the same effect as the navigation links.
+* The navigation bar in the header section is highlighted with a nice hover effect: an underline that starts from the left side and goes for 0.4 seconds to the right side when the mouse is hovered over them.
+* On the Home page, a "Services" button has been added for the user to easily access it when entering the website. For consistency reasons, the button also has a hover effect, covering the button background with the color "Teal" from the left side to the right side for 0.4 seconds.
 * The "Send" button from the contact form was styled white with black text for contrast purposes.
-* The colour "Teal" was used for styling the social links. The media links will send the use to "Biotope Aquascaping" social media pages.
+* The colour "Teal" was used for styling the social links. The media links will send the user to "Biotope Aquascaping" social media pages.
 ***
 ## Features
 ### Navigation Bar and Logo
-The navigation bar and logo are set at the top of the webpage. The navigation links are highlighted when hovered over. When clicked, the logo sends the user to the home page. The navigation links take the user tp the correct page of the website. For the larger screens, the logo is placed in the top left corner of the webpage and the navigation is in the top right corner of the webpage. On smaller screens, the navigation bar goes under the logo and both elements are centered.
+The navigation bar and logo are set at the top of the webpage. The navigation links are highlighted when hovered over. When clicked, the logo sends the user to the home page. The navigation links take the user to the correct page of the website. For the larger screens, the logo is placed in the top left corner of the webpage and the navigation is in the top right corner of the webpage. On smaller screens, the navigation bar goes under the logo and both elements are centered.
 
 ### Responsiveness
 The website is responsive at all breakpoints. The page layout will change to something more suited to smaller devices when needed. This has been achieved using media queries. This is to make the site easier to use for people with visual impairments by allowing them to navigate the site easily.
@@ -107,13 +107,13 @@ Alt-attribute and aria-label have been added to every image and navigation link.
 The footer contains the social links for [Facebook](https://www.facebook.com/), [Twitter](https://twitter.com/), [Youtube](https://www.youtube.com/) and [Instagram](https://www.instagram.com/).
 
 ### Home Page
-Features an inviting heading, a small description and a "Services" button. All of them are positoned in the center of the page.
+Features an inviting heading, a small description and a "Services" button. All of them are positioned in the center of the page.
 
 ### Services Page
-A heading is placed at the top of the page. Underneath the heading, an icon is set inside a circle designed with two lines by its sides. Moving further, this page consists of three types of aquariums that the business can provide. An image and a description of every type of aquarium are set at each one of them. As this is a fictive business created for the Milestone Project One, the images were taken from [this website]() and the descriptions were inspired by [this website]().
+A heading is placed at the top of the page. Underneath the heading, an icon is set inside a circle designed with two lines by its sides. Moving further, this page consists of three types of aquascaping styles that the business can provide. An image and a description of every type of aquarium are set at each one of them. As this is a fictive business created for the Milestone Project One, the images were taken from [this website]() and the descriptions were inspired by [this website]().
 
 ### Benefits Page
-As in the "Services" page, heading is placed at the top of the page, having the same style for the icon. This page contains four benefits of aquascape aquariums. Every benefit has a description of it. In the "Reduces Axiety" section an external link for a study is provided so that the user can learn even more from there. On the right side of each benefit title, an specific icon can be found.
+As in the "Services" page, heading is placed at the top of the page, having the same style underneath. This page contains four benefits of aquascape aquariums. Every benefit has a description of it. In the "Reduces Axiety" section an hyperlink for a study is provided so that the user can learn even more from there. On the right side of each benefit title, a specific icon can be found. The text content was taken from [this link]().
 
 ### Contact Page
 Consists of:
@@ -146,7 +146,10 @@ Consists of:
 * [HTML Validator](https://validator.w3.org/#validate_by_input) - Testing validity of HTML.
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) - Testing validity of CSS.
 * [Am I Responsive](https://ui.dev/amiresponsive#) - Checking the responsive nature and creating the mock-ups provided.
+* [HTML Validator](https://validator.w3.org) - To validate the HTML.
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) - To validate the CSS.
 * DEV Tools - Lighthouse.
+***
 
 ## Testing
 * Tested that the logo sends the user to the home page.
@@ -157,8 +160,9 @@ Consists of:
 * Attempting to submit the form with an email that doesn't contain the appropriate tokens results in a browser error message.
 * Submitting the form with all the correct information provided, sends the user to the Code Institute form dump, which displays data from all the fields.
 * Clicking on the social media links in the footer results in the browser navigating to the appropriate social media site in a new browser tab.
+* Tested if the hyperlink send you to the specific webpage.
 
-[HTML Validator]((https://validator.w3.org))
+[HTML Validator](https://validator.w3.org)
 
 ![HTML Validator Home Page](images-readme/homepage-validator.png)
 
