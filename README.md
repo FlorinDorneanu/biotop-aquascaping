@@ -1,6 +1,6 @@
 # Biotope Aquascaping
 ## Milestone Project One
-Biotope Aquascaping is a business concept that brings together the love for aquatic plants, nature and fish keeping. Aquascape aquariums are beneficial to physical and mental wellbeing and can have a positive, calming, stress-relieving effect on both their owners and viewers. Bioptope Aquascaping offers their services to rebuild the clients' old aquariums or create new ones in places like private houses, offices, dentist cabinets, restaurants, or wherever the conditions are favorable. Based on years of experience and learning from their mistakes, Biotope Aquascape can design and build clients' future aquariums from the ground up. The purpose of the website is for them to be easily reached and also to share information about them and what they do.
+Biotope Aquascaping is a business concept that brings together the love for aquatic plants, nature and fish keeping. Aquascape aquariums are beneficial to physical and mental wellbeing and can have a positive, calming, stress-relieving effect on both their owners and viewers. Bioptope Aquascaping offers their services to rebuild the clients old aquariums or create new ones in places like private houses, offices, dentist cabinets, restaurants, or wherever the conditions are favorable. Based on years of experience and learning from their mistakes, Biotope Aquascape can design and build clients future aquariums from the ground up. The purpose of the website is for them to be easily reached and also to share information about them and what they do.
 ***
 ## Demo
 The live website can be viewed here - [Biotope Aquascaping](https://florindorneanu.github.io/biotope-aquascaping/)
@@ -29,7 +29,8 @@ The GitHub repository can be viewed here - [FlorinDorneanu/biotope-aquascaping](
 
 ### Returning Visitor Goals
 * As a returning visitor, I want to find the best way to contact the business;
-* As a returning visitor, I want to find the social links with ease.
+* As a returning visitor, I want to find the social links with ease;
+* As a returning visitor. I want to see pictures with the artwork.
 
 ### Reasons a user may visit the site 
 * A user looking to know more about aquascaping;
@@ -56,10 +57,10 @@ The GitHub repository can be viewed here - [FlorinDorneanu/biotope-aquascaping](
 ## Structure
 
 This website will consists of four pages:
-* A Home page, with a small description and a "services" button;
+* A Home page, with a small description and a button with hover property that sends the user to services page;
 * A Services page which will contain three services that the business has to offer;
 * A Benefits page that lists the benefits of having an aquascape aquarium;
-* A Contact page with a form to get in touch with "Biotope Aquascaping".
+* A Contact page that has a form which makes it easy to get in touch with the aquascapers from Biotope Aquascaping.
 
 
 ## Skeleton
@@ -79,11 +80,11 @@ This website was requested to have a simple yet visually appealing design. To ke
 
 ### Imagery
 
-The images chosen for the "Services" page were taken from [this website](https://aquascapinglove.com/learn-aquascaping/aquascaping-styles/) to showcase exactly what every type of decorated aquarium could look like for the users to get not only readble information but also a visual example. The background image(banner image) was taken from [Envato](https://elements.envato.com/photos/) and it was chosen for the nice contrast and to to keep up with the theme of the website.
+The images chosen for the Services page were taken from [this website](https://aquascapinglove.com/learn-aquascaping/aquascaping-styles/) to showcase exactly what every type of decorated aquarium could look like for the users to get not only readble information but also a visual example. The background image(banner image) was taken from [Envato](https://elements.envato.com/photos/) and it was chosen for the nice contrast and to to keep up with the theme of the website.
 
 ### Typography
 
-For fonts, https://fonts.google.com/ has been used. For headings, "Source Sans Pro" has been chosen and for the content, "Poppins" font was chosen because it goes perfectly with the "Source Sans Pro" font and it gives the website a modern and playful vibe. Letter spacing was increased in some places to make the text more defined and to stand out.
+For fonts, https://fonts.google.com/ has been used. For headings, "Source Sans Pro" has been chosen and for the content, "Poppins" font was chosen because it goes perfectly with the "Source Sans Pro" font and it gives the website a modern and playful vibe. Letter spacing was increased on big screens to make the text more defined and to stand out.
 
 This code was imported at the top of the style.css file:
 ```
@@ -91,10 +92,10 @@ This code was imported at the top of the style.css file:
 ```
 
 ### Call to Action
-* The navigation bar in the header section is highlighted with a nice hover effect: an underline that starts from the left side and goes for 0.4 seconds to the right side when the mouse is hovered over them.
-* On the Home page, a "Services" button has been added for the user to easily access it when entering the website. For consistency reasons, the button also has a hover effect, covering the button background with the color "Teal" from the left side to the right side for 0.4 seconds.
-* The "Send" button from the contact form was styled white with black text for contrast purposes.
-* The colour "Teal" was used for styling the social links. The media links will send the user to "Biotope Aquascaping" social media pages.
+* The navigation links in the header section are highlighted with a nice hover effect: an underline that starts from the left side and goes for 0.4 seconds to the right side when the mouse is hovered over them.
+* On the Home page, a "ervices button has been added for the user to easily access it when entering the website. For consistency reasons, the button also has a hover effect, covering the button background with the color "Teal" from the left side to the right side for 0.4 seconds.
+* The Send button from the contact form was styled white with black text for contrast purposes.
+* The colour "Teal" was used for styling the social links. The media links will send the user to Biotope Aquascaping social media pages.
 ***
 ## Features
 ### Navigation Bar and Logo
@@ -110,21 +111,21 @@ Alt-attribute and aria-label have been added to every image and navigation link.
 The footer contains the social links for [Facebook](https://www.facebook.com/), [Twitter](https://twitter.com/), [Youtube](https://www.youtube.com/) and [Instagram](https://www.instagram.com/).
 
 ### Home Page
-Features an inviting heading, a small description and a "Services" button. All of them are positioned in the center of the page.
+Features an inviting heading, a small description, a Services button and the footer. All of them are positioned in the center of the page.
 
 ### Services Page
-A heading is placed at the top of the page. Underneath the heading, an icon is set inside a circle designed with two lines by its sides. Moving further, this page consists of three types of aquascaping styles that the business can provide. An image and a description of every type of aquarium are set at each one of them. As this is a fictive business created for the Milestone Project One, the images were taken from [this website](https://aquascapinglove.com/learn-aquascaping/aquascaping-styles/) and the descriptions were inspired by [this website](https://aquascapinglove.com/learn-aquascaping/aquascaping-styles/).
+A heading is placed at the top of the page. Underneath the heading, an icon is set inside a circle designed with two lines by its sides. Moving further, this page consists of three types of aquascaping styles that the business can provide. An image and a description of every type of aquarium are set at each one of them. As this is a fictive business created for the Milestone Project One, the images and descriptions were taken from [this website](https://aquascapinglove.com/learn-aquascaping/aquascaping-styles/).
 
 ### Benefits Page
-As in the "Services" page, heading is placed at the top of the page, having the same style underneath. This page contains four benefits of aquascape aquariums. Every benefit has a description of it. In the "Reduces Axiety" section an hyperlink for a study is provided so that the user can learn even more from there. On the right side of each benefit title, a specific icon can be found. The text content was taken from [this link](https://buceplant.com/blogs/aquascaping-guides-and-tips/the-benefits-of-aquariums-on-health-and-mood).
+As in the Services page, heading is placed at the top of the page, having the same style underneath. This page contains four benefits of having aquascape aquariums. Every benefit has a description of it. In the "Reduces Axiety" section an hyperlink for a study is provided so that the user can learn even more from there. On the right side of each benefit title, a specific icon can be found. The text content was taken from [this link](https://buceplant.com/blogs/aquascaping-guides-and-tips/the-benefits-of-aquariums-on-health-and-mood).
 
 ### Contact Page
 Consists of:
 * A contact form;
 * The form includes fields for the user to enter their business name and contact details using - input type="text";
 * The email input field requires the answer to be an email;
-* The "Mobile" input field must be a number to be valid;
-* There is a - textarea - to allow the user to ask any further details. I have used placeholder text to encourage the user to make any further comments;
+* The mobile input field must contain a number to be valid;
+* There is a - textarea - to allow the user to type any further details. I have used placeholder text to encourage the user to make any further comments;
 * The submit button has high contrast;
 * The form is stacked for mobile use;
 * All fiels are set to "required".
@@ -146,21 +147,20 @@ Consists of:
 * [Online-Convert](https://image.online-convert.com/convert-to-webp) - To convert my images to WebP.
 
 ### Testing
-* [HTML Validator](https://validator.w3.org/#validate_by_input) - Testing validity of HTML.
-* [CSS Validator](https://jigsaw.w3.org/css-validator/) - Testing validity of CSS.
-* [Am I Responsive](https://ui.dev/amiresponsive#) - Checking the responsive nature and creating the mock-ups provided.
-* [HTML Validator](https://validator.w3.org) - To validate the HTML.
-* [CSS Validator](https://jigsaw.w3.org/css-validator/) - To validate the CSS.
 * DEV Tools - Lighthouse.
+* [Am I Responsive](https://ui.dev/amiresponsive#) - Checking the responsive nature and creating the mock-ups provided.
+* [HTML Validator](https://validator.w3.org) - To validate the HTML code.
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) - To validate the CSS code.
 ***
 
 ## Testing
 * Tested that the logo sends the user to the home page.
 * Tested if the user is sent to the correct page of the website when clicking the navigation links.
-* Tested that the "Services" button works.
-* Tested that the "Send" button works.
+* Tested that the Services button works.
+* Tested that the Send button works.
 * Attempting to submit the form without required fields results in a browser error message.
 * Attempting to submit the form with an email that doesn't contain the appropriate tokens results in a browser error message.
+* I tried to write letters instead of numbers in the phone number box, but it didn't work.
 * Submitting the form with all the correct information provided, sends the user to the Code Institute form dump, which displays data from all the fields.
 * Clicking on the social media links in the footer results in the browser navigating to the appropriate social media site in a new browser tab.
 * Tested if the hyperlink send you to the specific webpage.
@@ -211,23 +211,23 @@ Tested on iOS, macOS and Android. Chrome Developer Tools was used for testing th
 
 * A user looking to know more about aquascaping;
 
-The user can easily find more about aquascaping in the small description on the "Home" page, in the "Services" page as well as in the "Benefits" page.
+The user can easily find more about aquascaping in the small description on the Home page, in the Services page as well as in the Benefits page.
 
 * A user conducting research on our services;
 
-The user can find information about what kind of aquascaping styles the business can provide, on the "Services" page.
+The user can find information about what kind of aquascaping styles the business can provide, on the Services page.
 
 * A user seeking to beautify their home or workspace;
 
-The user can choose between three types of aquascaping styles to beautify their home or workspace on the "Services" page.
+The user can choose between three types of aquascaping styles to beautify their home or workspace on the Services page.
 
 * A user looking to rebuild the already-existing aquarium;
 
-The user can contact the business to establish a future aquarium rebuilding using the contact form provided in the "Contact" page.
+The user can contact the business to establish a future aquarium rebuilding using the contact form provided in the Contact page.
 
 * A user trying to get in touch with the business.
 
-The user can get in touch simply by using the contact form provided in the "Contact" page or the social media links located at the bottom of the page, in the footer section.
+The user can get in touch simply by using the contact form provided in the Contact page or the social media links located at the bottom of the page, in the footer section.
 ***
 
 ## Deployment
@@ -237,12 +237,12 @@ The user can get in touch simply by using the contact form provided in the "Cont
 The project was deployed with the following steps
 
 * Log into GitHub;
-* Click the "Settings" button in the menu above the Repository;
-* Scroll down the Settings page to the "GitHub Pages" Section;
-* Under "Source", click the dropdown called "None" and then select "Master Branch";
+* Click the Settings button in the menu above the Repository;
+* Scroll down the Settings page to the GitHub Pages Section;
+* Under Source, click the dropdown called None and then select Master Branch;
 * The page will automatically refresh, and a link displaced. It may take some time for the link to show the website.
-* If the page will not load go down to "template" under the "source" and select a template.
-* Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+* If the page will not load go down to template under the source and select a template.
+* Scroll back down through the page to locate the now published site link in the GitHub Pages section.
 
 ### Forking
 
@@ -251,7 +251,7 @@ Forking the GitHub Repository
 By forking the GitHub Repository, you can make a copy of the original repository in your own GitHub account. This means we can view or make changes without making the changes affecting the original.
 
 * Log into GitHub and locate the GitHub Repository;
-* At the top of the Repository there is a "Fork" button about the "Settings" button on the menu;
+* At the top of the Repository there is a Fork button about the Settings button on the menu;
 * You should now have a new copy of the original repository in your own GitHub account.
 
 ### Cloning
@@ -259,7 +259,7 @@ By forking the GitHub Repository, you can make a copy of the original repository
  Taken from GitHub's documentation on cloning, which can be found [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) :
  
 * Once logged into GitHub, navigate to the repository you wish to clone.
-* Next to the green Gitpod button there's a button that reads code, click this.
+* Next to the green Gitpod button there is a button that reads code, click this.
 * To clone the repository using HTTPS, copy the link whilst HTTPS is selected.
 * Open your local IDE of choice and open the terminal.
 * Navigate to the working directory of where you want the cloned directory to be.
@@ -276,8 +276,8 @@ I’ve been using Gitpod to write my code and using the terminal within to add, 
 ***
 
 ## Known Bugs
-* BUG - When testing the responsiveness using DevTools, there were no bugs identified. When tested on Safari on desktop and all the browsers on mobile, The ```text-decoration: underline``` for the h2 heading on the "Services" and "Benefits" pages, the line didn't appear. This was fixed by replacing ```text-decoration: underline``` with ```border-bottom```.
-* BUG - On mobile, using Firefox, Safari and Chrome, the button "Send" from the contact form wasn't centered. This was fixed by using ```margin-left: auto```, ```margin-right: auto``` and increasing the size of the button.
+* BUG - When testing the responsiveness using DevTools, there were no bugs identified. When tested on Safari on desktop and all the browsers on mobile, The ```text-decoration: underline``` for the h2 heading on the Services and Benefits pages, didn't appear. This was fixed by replacing ```text-decoration: underline``` with ```border-bottom```.
+* BUG - On mobile, using Firefox, Safari and Chrome, the button Send from the contact form wasn't centered. This was fixed by using ```margin-left: auto```, ```margin-right: auto``` and increasing the size of the button for small screens sizes.
 
 ## Acknowledgements
 ### Credit
@@ -292,8 +292,8 @@ I’ve been using Gitpod to write my code and using the terminal within to add, 
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) - Testing validity of CSS.
 * [Am I Responsive](https://ui.dev/amiresponsive#) - Checking the responsive nature and creating the mock-ups provided.
 * [Logo](https://logo.com/) - Making the logo for the website.
-* [Buceplant](https://buceplant.com/blogs/aquascaping-guides-and-tips/the-benefits-of-aquariums-on-health-and-mood) - The hyperlink and text content from the "Benefits" page was taken from this website.
-* [Aquascaping Love](https://aquascapinglove.com/learn-aquascaping/aquascaping-styles/) - The images and text content from the "Services" page was taken from this website.
+* [Buceplant](https://buceplant.com/blogs/aquascaping-guides-and-tips/the-benefits-of-aquariums-on-health-and-mood) - The hyperlink and text content from the Benefits page was taken from this website.
+* [Aquascaping Love](https://aquascapinglove.com/learn-aquascaping/aquascaping-styles/) - The images and text content from the Services page was taken from this website.
 
 ## Code
 
